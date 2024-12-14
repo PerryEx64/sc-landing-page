@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "soy-control-landing",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
