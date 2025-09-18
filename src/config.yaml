@@ -1,6 +1,6 @@
 site:
   name: SoyControl
-  site: 'https://astrowind.vercel.app'
+  site: 'https://soycontrol.com'
   base: '/'
   trailingSlash: false
 
@@ -10,26 +10,25 @@ site:
 metadata:
   title:
     default: SoyControl
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    template: '%s — SoyControl'
+  description: "Plataforma de control y gestión empresarial. Optimiza tus procesos de negocio con SoyControl."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: SoyControl
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/icon.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@soycontrol'
+    site: '@soycontrol'
     cardType: summary_large_image
 
 i18n:
-  language: en
-  textDirection: ltr
+  language: es
 
 apps:
   blog:
